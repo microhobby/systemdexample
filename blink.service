@@ -3,8 +3,6 @@ Description=Vamos piscar leds.
 
 [Service]
 Type=simple
-Group=root
-User=root
 ExecStart=/home/pi/scripts/blink.sh
 
 [Install]
