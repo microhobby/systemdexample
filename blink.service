@@ -4,6 +4,7 @@ Description=Vamos piscar leds.
 [Service]
 Type=simple
 ExecStart=/home/pi/scripts/blink.sh
+ExecStop=/home/pi/scripts/blinkShutdown.sh
 
 [Install]
 WantedBy=multi-user.target
