@@ -1,6 +1,6 @@
 #!/bin/bash
 
-while [ 1 ]
+for i {1..5}
 do
 	echo 1 > /sys/class/gpio/gpio24/value
 	sleep 0.09s
