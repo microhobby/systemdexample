@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo 2018 > /sys/class/gpio/export
+echo 24 > /sys/class/gpio/export
 echo out > /sys/class/gpio/gpio2018/direction
 
 while [ 1 ]
